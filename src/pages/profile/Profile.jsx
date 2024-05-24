@@ -76,7 +76,7 @@ const ProfilePage = () => {
     const Dates = data[0].roomNumbers[0].unavailableDAtes;
 
     // API'ye PUT isteği gönder
-    axios.put(`https://bungalovbooking-api.onrender.com/api/rooms/${roomId}`, {
+    axios.put(`https://bungalovbooking-api-htw4.onrender.com/api/rooms/${roomId}`, {
         dates: Dates
     }, {
         headers: {
