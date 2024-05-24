@@ -13,7 +13,7 @@ import Profile from './pages/profile/Profile'; // Profil bileşeninin import edi
 import Register from './pages/register/Register';
 
 const App = () => {
-  axios.defaults.baseURL = 'https://bungalovbooking-api.onrender.com';
+  axios.defaults.baseURL = 'https://bungalovbooking-api-htw4.onrender.com';
   return (
     <BrowserRouter>
       <Routes>
